@@ -1,5 +1,5 @@
 package smacademy.git;
 
 def gitCommit(gitPath) {
-return "/bin/git --git-dir=${gitPath} rev-parse HEAD".execute().text
+return "git --git-dir=${gitPath} rev-parse HEAD".execute().text
 }
